@@ -1,8 +1,5 @@
-// declarations
-const d = new Date();
-const year = d.getFullYear();
-const lastmod = document.querySelector('#lastmod');
+let lastModified = document.lastModified;
+document.querySelector("#last-modified").textContent = lastModified;
 
-// using querySelector
-document.querySelector('#currentyear').textContent = year;
-document.querySelector('#lastmod').textContent += `Last Update: ${document.lastModified}`;
+let year = new Date().getFullYear();
+document.querySelector("#current-year").textContent = year;
