@@ -51,7 +51,7 @@ header {
     margin: auto;
     margin-top: 10px;
 
-    background-color: #0a2032;
+    background-color: #B9A2A2;
     color: white;
     border-radius: 10px;
 
@@ -79,7 +79,7 @@ header h2 {
 }
 
 .column-1 {    
-    background-color: #eeeeee;
+    background-color: #e9c46a;
     border-radius: 10px;
 
     border: #3a4958 solid .5px;
