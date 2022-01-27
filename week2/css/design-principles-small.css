@@ -79,7 +79,7 @@ header h2 {
 }
 
 .column-1 {    
-    background-color: #e9c46a;
+    background-color: #B9A2A2;
     border-radius: 10px;
 
     border: #3a4958 solid .5px;
@@ -90,7 +90,7 @@ header h2 {
     height: 40px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background-color: #3a4958;    
+    background-color: #B9A2A2;    
 }
 
 .title-1 h3 {
@@ -121,7 +121,7 @@ header h2 {
 }
 
 .column-2 {    
-    background-color: #eeeeee;
+    background-color: #B9A2A2;
     border-radius: 10px;
 
     border: #3a4958 solid .5px;
@@ -132,7 +132,7 @@ header h2 {
     height: 40px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background-color: #3a4958;    
+    background-color: #B9A2A2;    
 }
 
 .title-2 h3 {
@@ -159,14 +159,14 @@ header h2 {
 
     border-radius: 5px;
 
-    border: #3a4958 solid .5px;
+    border: #e9c46a solid .5px;
 }
 
 .column-3 {    
-    background-color: #eeeeee;
+    background-color: #B9A2A2;
     border-radius: 10px;
 
-    border: #3a4958 solid .5px;
+    border: #e9c46a solid .5px;
 }
 
 .title-3 {
@@ -200,7 +200,7 @@ header h2 {
 
     border-radius: 5px;
 
-    border: #3a4958 solid .5px;
+    border: #e9c46a solid .5px;
 }
 
 
@@ -208,7 +208,7 @@ footer {
     margin: auto;
     margin-top: 10px;
 
-    background-color: #0a2032;
+    background-color: #B9A2A2;
     color: white;
     border-radius: 10px;
 
