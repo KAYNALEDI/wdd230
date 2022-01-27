@@ -1,6 +1,5 @@
   
-let lastModified = document.lastModified;
-document.querySelector("#last-modified").textContent = lastModified;
+document.querySelector("#timestamp").innerHTML = String("Last updated: ") + String(document.lastModified);
+document.querySelector("#copyright").innerHTML = String("&copy ") + new Date().getFullYear() + String(" Nokwazi Kunene    Florida");
+© 2022 GitHub, Inc.
 
-let year = new Date().getFullYear();
-document.querySelector("#current-year").textContent = year;
