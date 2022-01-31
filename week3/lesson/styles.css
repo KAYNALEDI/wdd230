@@ -1,183 +1,226 @@
-@import url('https://fonts.google.com/specimen/Quicksand?selection.family=Quicksand|Ubuntu:wght@700&sidebar.open=true');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@700&display=swap")
+@IMPORT URL("https://fonts.googleapis.com/css2?family=Quicksand&display=swap")
 
 :root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #25323C;
-  --secondary-color: #B9A2A2;
-  --accent1-color: #FF6B88;
-  --accent2-color: #
-
-  /* change the values below to your chosen font(s) */
   --heading-font: Ubuntu;
   --paragraph-font: Quicksand;
-
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: black;  /* headlines on a white background */ 
-  --headline-color-on-color: #25323c; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #03071ezz; /* paragraph text on a colored background */ 
-  --text-background-color: #B9A2A2;
-  --nav-link-color: #FF6B88;
-  --nav-background-color: #e9c46a;
-  --nav-hover-link-color: #FF6B88;
-  --nav-hover-background-color: #e9c46a;
 }
 
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-html {
-  background-color: var(--primary-color);
-}
-body {
-  max-width: 900px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 1.1em;
-}
 img {
   max-width: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
-}
-header {
-  padding: 1em;
-  text-align: center;
-  color: var(--paragraph-color-on-color);
-  background-color: var(--text-background-color);
-}
-header > h1, header > h2 {
-  color: var(--headline-color-on-color);
-}
-
-p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color);
-  padding: 1em;
-}
-
-.colors {
+.banner-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  min-width: 350px;
-  margin: auto;
-  text-align: center;
-}
-.colors th {
-  background-color: #999;
-}
-.colors td{
-  width: 25%;
-  height: 3em;
+  height: 250px;
 }
 
-.primary {
-  background-color: var(--primary-color);
+   
+header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 120px auto;
 }
-.secondary {
-  background-color: var(--secondary-color);
-}
-.accent1 {
-  background-color: var(--accent1-color);
-}
-.accent2{
-  background-color: var(--accent2-color);
-}
+Nav a{
+  Color:
+  Font-weight: bold;
+  Font-size:1.1em;
+} 
 
-p.colored {
-  background-color: var(--text-background-color);
-  color: var(--paragraph-color-on-color);
-}
+nav ul {
+  list-style: none; /* removes the bullets! */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
 
-nav {
-  background-color: var(--nav-background-color);
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
 }
-nav > ul {
-  list-style-type: none;
-  display: flex;
-
+body {
+  background-color: #EDF6F9;
+  padding: 10px 20px 10px;
+  border-style: none;
+}
+selector {
+  color: white;
 }
 nav a {
-  padding:1em;
-  min-width: 70px;
+  color: #006D77;
+  font-weight: bold;
 }
-nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+ul {
+  list-style-type: none;
 }
-nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+li {
+  display: inline;
 }
-
-.sitemap {
-  display: grid;
-  justify-content: center;
-
-  grid-template-columns: repeat(6, 15%);
-  grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas: ". . home home . ."
-    ". . . top . ."
-    ". left left right right ."
-    "page2 page2 . . page3 page3";
-}
-.sitemap > div {
-
-  text-align: center;
-
-}
-.sm-home {
-  grid-area: home;
-  background-color: #999;
-  line-height: 3em;
-}
-.sm-page2 {
-  grid-area: page2;
-  background-color: #999;
-  line-height: 3em;
-}
-.sm-page3 {
-  grid-area: page3;
-  background-color: #999;
-  line-height: 3em;
-}
-
-.top {
-  grid-area: top;
-  border-left: 1px solid;
-}
-
-.left {
-  grid-area: left;
-  border-top: 1px solid;
-  border-left: 1px solid;
-}
-
-.right {
-  grid-area: right;
-  border-top: 1px solid;
-  border-right: 1px solid;
-}
-
-p {
-  padding: 35px 70px 50px 90px;
+h2 {
+  font-family: var(--heading-font);
+  color: #25323C;
+  font-size: 2em;
   
 }
-.home-paragraph-3
-p{
-  text-align: center;
+p {
+  font-size: 1.1em;
+  font-family: var(--paragraph-font);
 }
-.center {
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+#content{
+  Max-width:960px;
+  Margin:0 auto;
+  Background-color:#
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: .5em;
+    padding: .5em;
+}
+.home-grid {
+    padding-bottom: 1em;
+}
+
+.home-headline-1 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.home-paragraph-1 {
+    grid-column: 2/4;
+    grid-row: 2/4;
+  
+}
+.home-right-img {
+    grid-column: 4/6;
+    grid-row: 1/3;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #999;
+}
+.home-headline-2 {
+    grid-column: 3/6;
+    grid-row: 4/5;
+}
+.home-paragraph-2 {
+    grid-column: 3/5;
+    grid-row: 5/6;
+}
+.home-left-img {
+    grid-column: 2/3;
+    grid-row: 4/6;
+    border: 1px solid #ccc;
+    padding: 1px;
+    box-shadow: 5px 5px 5px #999;
+}
+.home-headline-3{
+  grid-column: 2/3;
+    grid-row: 1/2;
+}
+.home-paragraph-3 {
+    grid-column: 2/4;
+    grid-row: 2/2;
+}
+img {
+    max-width: 100%;
+}
+
+
+.home-grid p{
+    padding-bottom: 1em;
+}
+
+
+  Footer{
+    Height:55px;
+    Display:grid;
+    Grid-template-columns :80% 1fr;
+    Padding-bottom:10px;
+    background-color:#83C5BE;
+    Border:1px solid;
+.footer-copyright {
+  font-size: 0.8em;
+  Footer img{
+    Padding: 10px 3px 3px 3px;
+  }
+.logo-image {
+  width: 100%;
+  height: 100px;
+  grid-column:1/2;
+  grid-row:1/2;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: .5em;
+    padding: .5em;
+}
+
+..home-headline-1 {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.home-paragraph-1 {
+  grid-column: 1/4;
+  grid-row: 2/4;
+}
+.home-right-img {
+    grid-column: 4/6;
+    grid-row: 1/3;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #999;
+}
+.home-headline-2 {
+  grid-column: 3/6;
+  grid-row: 4/5;
+}
+
+.home-paragraph-2 {
+  grid-column: 3/6;
+  grid-row: 5/7;
+}
+.home-left-img {
+    grid-column: 1/3;
+    grid-row: 4/6;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #999;
+}
+.home-headline-3 {
+  grid-column: 1/4;
+  grid-row: 1/1;
+}
+
+.home-paragraph-3 {
+  grid-column: 1/4;
+  grid-row: 2/6;
+}
+
+.home-right-img {
+  grid-column: 4/6;
+  grid-row: 1/3;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #999;
+}
+
+.home-left-img {
+  grid-column: 1/3;
+  grid-row: 4/6;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 5px 5px 5px #999;
+}
+.home-grid p {
+  padding-bottom: 1em;
+}
+
+@media screen and (max-width: 550px) 
+
+{
+  /* beginning of media query */
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  diplay:grid;
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
@@ -197,8 +240,8 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
-/* When moving the mouse over the submit button, add a darker green color */
+  
+ /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #45a049;
 }
@@ -209,3 +252,173 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+   
+ @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans&display=swap');
+
+body {
+    background-color: #EDEDED ;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0px;
+}
+
+header{
+    background-color: #EDEDED ;
+    display: grid;
+    grid-template-columns: 70px auto;        
+}
+
+nav {
+    background-color: #8c4646;
+    height:120px;
+    argin: 0 auto 0px auto;
+    box-shadow: 4px -7px 8px #808080;
+}
+
+.logo-box {
+    background-color: white;
+    border: 1px solid #a43312;
+}
+
+nav ul{
+    list-style: none; /* removes the bullets! */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); 
+    margin: 0px;
+    
+}
+
+li {
+    display: inline-block;
+    width: 179px;
+    margin-top: 5px;
+    height: 10px;
+}
+
+.banner-img{
+    padding-left: 0px;
+   width: 100%;
+  height: 100px;
+  background-image: url(https://cdn.glitch.com/c718e11d-7f9b-4f6d-b1ad-fca528511905%2FPPastel%20Purple%20Blue%20and%20Pink%20Salons%20Back%20to%20Business%20Landscape%20Banner.png?v=1603859144497);
+  background-size: cover;
+  background-position: center;
+}
+
+nav a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder ;
+}
+
+nav {
+    width: 890px;
+    height: auto;
+    background: #8c4646;
+    padding-top: 15px;
+
+}
+nav li a {
+    color: #fff;
+    font-weight: 700;
+    margin-left: 1.7em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    animation: ease-in-out 200ms;
+    color: white;
+
+}
+
+#content {
+
+    max-width: 960px;
+    font-size: 1.2em;
+    margin: 0px auto;
+    border: 2px;
+    padding: 1em;
+}
+
+main{
+   background-color: white;
+}
+
+.banner-box{
+    background-color: white;
+    padding: .5em;
+}
+
+.banner-box img {
+    width: 100%;
+}
+
+h2 {
+    background-color: #396E94 ;
+    padding-left: 1em;
+    line-height: 2em;
+    margin-top: 1em;
+    border-top: 5px double;
+    border-bottom: 5px double;
+    margin-bottom: -0.5em;
+    font-family: 'Nunito', san-serif;
+}
+  
+ //
+  
+  nav li a {
+    color: #fff;
+    font-weight: 700;
+    margin-left: 1.7em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    animation: ease-in-out 200ms;
+    color: white;
+
+}
+
+#content {
+
+    max-width: 960px;
+    font-size: 1.2em;
+    margin: 0px auto;
+    border: 2px;
+    padding: 1em;
+}
+
+main{
+   background-color: white;
+}
+
+.banner-box{
+    background-color: white;
+    padding: .5em;
+}
+
+.banner-box img {
+    width: 100%;
+     max-width: 100%;
+  height: auto;
+  width: auto;
+  margin:auto;
+  display:block
+}
+
+h2 {
+    background-color: #396E94 ;
+    padding-left: 1em;
+    line-height: 2em;
+    margin-top: 1em;
+    border-top: 5px double;
+    border-bottom: 5px double;
+    margin-bottom: -0.5em;
+    
+}
+  
+  
+ 
