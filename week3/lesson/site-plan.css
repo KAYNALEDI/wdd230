@@ -1,26 +1,29 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
 @import url('https://fonts.google.com/specimen/Quicksand?selection.family=Quicksand|Ubuntu:wght@700&sidebar.open=true');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #25323C;
-  --secondary-color: #B9A2A2;
-  --accent1-color: #FF6B88;
-  --accent2-color: #
-
+  --primary-color: #F4B87C;
+  --secondary-color: #FFFFFC
+  --accent1-color: #A14625;
+  --accent2-color: #B9A2A2;
+    
   /* change the values below to your chosen font(s) */
   --heading-font: Ubuntu;
   --paragraph-font: Quicksand;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: black;  /* headlines on a white background */ 
-  --headline-color-on-color: #25323c; /* headlines on a colored background */ 
+  --headline-color-on-color: #FFFFFC /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #03071ezz; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #B9A2A2; /* paragraph text on a colored background */ 
   --text-background-color: #B9A2A2;
-  --nav-link-color: #FF6B88;
-  --nav-background-color: #e9c46a;
-  --nav-hover-link-color: #FF6B88;
-  --nav-hover-background-color: #e9c46a;
+  --nav-link-color: #F4B87C;
+  --nav-background-color: #A14625;
+  --nav-hover-link-color: #F4B87C;
+  --nav-hover-background-color: F4B87C;
 }
 
 
@@ -190,7 +193,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #A14625;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -200,12 +203,12 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #A14625;
 }
 
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #A14625;
   padding: 20px;
 }
