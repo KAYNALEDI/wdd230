@@ -1,1 +1,9 @@
-document.querySelector("#timestamp").innerHTML = String("&copy | ") + new Date().getFullYear() + String(" Nokwazi Kunene |") + String(" Last Updated: ") + String(document.lastModified);
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
+var x = document.lastModified;
+document.getElementById("date").innerHTML = x;
+
+function toggleMenu() {
+   
+    document.getElementById("primaryNav").classList.toggle("hide");
+}
