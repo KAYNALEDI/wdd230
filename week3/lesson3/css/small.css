@@ -1,0 +1,129 @@
+body {
+    background-color: #16bdf0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+header, footer {
+    display: flex;
+    
+}
+header, nav, main, footer {
+    margin: 0 auto;
+    max-width: 1200px;
+   
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #fff;
+}
+nav {
+    font-family: 'Anton', sans-serif;
+    background-color: #0a6fad;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.75rem 2%;
+    text-decoration: none;
+    font-size: 1rem;
+    border-top:1px solid rgba(0,0,0,0.3);
+}
+nav ul li .active a{
+    background-color: rgba(0,0,0,0.2); color: #fff;
+}
+nav ul li a:hover {
+    background-color: #09b6d9;
+    color: black; 
+}
+nav ul.hide {
+    display: none;
+
+}
+
+main {
+
+    margin: 1.25rem auto;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+main section {
+    background-color: #0a6fad;
+    margin: 1rem ;
+    border: 1px solid #0a6fad;
+    text-align: left;
+    padding: .5rem;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+
+}
+
+h2 {
+    
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+h3 {
+  
+    color: #fff;
+    text-align: left;
+    padding: .5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+h4 {
+    color: #fff;
+    text-align: left;
+    padding: 1rem;
+font-family: 'Oswald', sans-serif;
+}
+header {
+    font-family: 'Anton', sans-serif;
+    background-color: #0997d9;
+    color: #fff;
+    text-align: center;
+    padding: 1.25rem;  
+}
+header h1 {
+    margin: 1rem;
+}
+
+footer {
+    background-color: #0997d9;
+    color: #000;
+    text-align: center;
+    padding: 1rem;
+    font-size: .8em; 
+}
+
+section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+section ul li {
+    display: block;
+    padding: 0.75rem;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
