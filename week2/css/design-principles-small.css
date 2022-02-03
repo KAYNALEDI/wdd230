@@ -141,13 +141,13 @@ header h2 {
     padding-left: 10px;
     align-self: center;
 
-    color: white;
+    color: #000000;
 }
 
 .content-2 {
     padding: 10px;
 
-    color: pink;
+    color: #000000;
 }
 
 .content-2 img {
@@ -190,7 +190,7 @@ header h2 {
 .content-3 {
     padding: 10px;
 
-    color: pink;
+    color: #000000;
 }
 
 .content-3 img {
