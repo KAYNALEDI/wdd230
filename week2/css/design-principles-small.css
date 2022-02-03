@@ -110,7 +110,7 @@ header h2 {
 
 .content-1 img {
     max-width: 290px;
-    max-height: 400px;
+    max-height: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -174,7 +174,7 @@ header h2 {
     height: 40px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background-color: #3a4958;    
+    background-color: #B9A2A2;    
 }
 
 .title-3 h3 {
