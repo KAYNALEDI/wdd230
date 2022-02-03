@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@700&display=swap"):
+  root {
+  --heading-font: Ubuntu;
+  --paragraph-font: Quicksand;
 body {
     background-color: #16bdf0;
     font-size: 18px;
