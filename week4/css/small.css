@@ -7,7 +7,7 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 header {
-    background-color: #3a4958;
+    background-color: #6B705C;
     color: #F7F7F7;
     display: grid;
     grid-template-columns: 1fr 3fr 2fr 1fr;
@@ -60,7 +60,7 @@ nav button {
     top: 35px;
 }
 nav {
-    background-color: #3a4958;
+    background-color: #6B705C;
     grid-column: 1/5;
 }
 nav ul {
