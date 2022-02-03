@@ -3,7 +3,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 header {
-    background-color: #073B5E;
+    background-color: #3a4958;
     color: #F7F7F7;
     display: grid;
     grid-template-columns: 1fr 3fr 2fr 1fr;
@@ -56,7 +56,7 @@ nav button {
     top: 35px;
 }
 nav {
-    background-color: #073B5E;
+    background-color: #3a4958;
     grid-column: 1/5;
 }
 nav ul {
@@ -110,7 +110,7 @@ main {
     color: #191924;
 }
 main div {
-    background-color: #ececec;
+    background-color: #3a4958;
     padding: 1em;
     padding-bottom: 100px;
     border: 1px solid #444;
@@ -132,7 +132,7 @@ main div {
 }
 /* footer */
 footer {
-    background-color: #191924;
+    background-color: #3a4958;
     color: #F7F7F7;
     padding:1em;
     text-align: center;
