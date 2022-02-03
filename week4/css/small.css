@@ -15,11 +15,11 @@ header {
 }
 header h1 {
     font-size: 16px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', serif;
 }
 header h2 {
     font-size: 12px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', serif;
 }
 .logo img {
     width: 60px;
