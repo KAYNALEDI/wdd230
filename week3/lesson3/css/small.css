@@ -1,6 +1,6 @@
 
 body {
-    background-color: #16bdf0;
+    background-color: #6B705C;
     font-size: 18px;
     line-height: 1.5;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -61,7 +61,7 @@ main {
 
 }
 main section {
-    background-color: #0a6fad;
+    background-color: #6B705C;
     margin: 1rem ;
     border: 1px solid #0a6fad;
     text-align: left;
@@ -105,11 +105,12 @@ header h1 {
 }
 
 footer {
-    background-color: #0997d9;
-    color: #000;
-    text-align: center;
-    padding: 1rem;
-    font-size: .8em; 
+  background-color: #6B705C;
+  color: #B7B7A4;
+  text-align: center;
+  margin-left: 50px;
+  border-radius: 5px;
+  padding-bottom: 20px;
 }
 
 section ul {
