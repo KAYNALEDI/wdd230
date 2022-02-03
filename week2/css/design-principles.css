@@ -205,17 +205,11 @@ header h2 {
 
 
 footer {
-    margin: auto;
-    margin-top: 10px;
-
-    background-color: #0a2032;
-    color: white;
-    border-radius: 10px;
-
-    text-align: center;
+  background-color: #6B705C;
+  color: #B7B7A4;
+  text-align: center;
+  margin-left: 50px;
+  border-radius: 5px;
+  padding-bottom: 20px;
 }
 
-footer p {
-    padding-top: 7px;
-    display: block;
-}
