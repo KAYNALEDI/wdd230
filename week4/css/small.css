@@ -90,16 +90,16 @@ nav ul.open {
 nav button.open {
     border: 1px solid #073b5e;
 }
-#hamburguerButton span:nth-child(1) {
+#chamberButton span:nth-child(1) {
     display: block;
 }
-#hamburguerButton span:nth-child(2) {
+#chamberButton span:nth-child(2) {
     display: none;
 }
-#hamburguerButton.open span:nth-child(1) {
+#chamberButton.open span:nth-child(1) {
     display: none;
 }
-#hamburguerButton.open span:nth-child(2) {
+#chamberButton.open span:nth-child(2) {
     display: block;
 }
 /* main */
