@@ -99,13 +99,13 @@ header h2 {
     padding-left: 10px;
     align-self: center;
 
-    color: white;
+    color: #000000;
 }
 
 .content-1 {
     padding: 10px;
 
-    color: pink;
+    color: #000000;
 }
 
 .content-1 img {
@@ -183,7 +183,7 @@ header h2 {
     padding-left: 10px;
     align-self: center;
 
-    color: white;
+    color: #000000;
 }
 
 
@@ -209,7 +209,7 @@ footer {
     margin-top: 10px;
 
     background-color: #B9A2A2;
-    color: white;
+    color: #000000;
     border-radius: 10px;
 
     text-align: center;
