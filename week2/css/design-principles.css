@@ -51,8 +51,8 @@ header {
     margin: auto;
     margin-top: 10px;
 
-    background-color: #0a2032;
-    color: white;
+    background-color: B9A2A2;;
+    color: #25323C;;
     border-radius: 10px;
 
     text-align: center;
@@ -79,7 +79,7 @@ header h2 {
 }
 
 .column-1 {    
-    background-color: #eeeeee;
+    background-color: #B9A2A2;;
     border-radius: 10px;
 
     border: #3a4958 solid .5px;
@@ -205,8 +205,8 @@ header h2 {
 
 
 footer {
-  background-color: #6B705C;
-  color: #B7B7A4;
+  background-color: #B9A2A2;;
+  color: #25323C;;
   text-align: center;
   margin-left: 50px;
   border-radius: 5px;
