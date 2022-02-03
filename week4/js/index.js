@@ -1,9 +1,9 @@
-//hamburguer menu
+//chamber menu
 function toggleMenu () {
 	document.getElementById("navBar").classList.toggle("open");
-	document.getElementById("hamburguerButton").classList.toggle("open");
+	document.getElementById("chamberButton").classList.toggle("open");
 }
-const x = document.getElementById("hamburguerButton");
+const x = document.getElementById("chamberButton");
 x.onclick = toggleMenu
 //current date
 const datefield = document.querySelector("#date");
