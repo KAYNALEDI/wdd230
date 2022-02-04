@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>The Whimsical</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAR CHAMBER SITE</title>
+     <meta name="description" content="Lesson 4: Chamber Home Page Build" WDD 230: Web Frontend Development assignment at Brigham Young University - Idaho">
+     <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@700&display=swap" rel="stylesheet"></head>                                          
+            
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+   <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+   <link rel="stylesheet" href="css/contact.css">
+  
+                                   
+
+</head>
+
+<body>
     <header>
-      <div class="logo-box">
-        <img
-          class="logo-image"
-          src="https://cdn.glitch.com/c718e11d-7f9b-4f6d-b1ad-fca528511905%2FParmesan%20Cheese.png?v=1602919010023"
-          alt="The Whimsical Logo"
-        />
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="faqs.html">FAQs</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="personal-site-plan.html">Site Plan</a></li>
-          <li><a href="rates.html">Rates</a></li>
-          <li><a href="forms.html">Forms</a></li>
-          <li><a href="card.html">Card</a></li>
+        <img src="images/wee.jpeg" alt="logo">
+        <h1>Oar Chamber Contact Information</h1>
+
+    </header>
+    <nav class="clearfix">
+                         
+               <div class="social">
+                <a href="https://twitter.com" target="blank"><img src="images/twitter.png" alt="Twitter Link"></a>
+                <a href="https://facebook.com" target="blank"><img src="images/facebook.png" alt="Facebook Link"></a>
+            </div>
+
+        <button onclick="chamberButton">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
         </ul>
-      </nav>
-    
+    </nav>
+
     </header>
     <main>
       <div class="banner-box">
@@ -60,35 +82,15 @@
       <div id="feedback"></div>
     </main>
 
-    <footer>
-      <p class="footer-copyright">
-        &copy; 2020- The Whimsical- Nokwazi Kunene - Section 18
-      </p>
-      <div class="social">
-        <a href="https://facebook.com">
-          <img
-            src="https://cdn.glitch.com/a336bbab-510f-4871-bafe-2be509c41141%2Fimages.png?v=1600478836087"
-            alt="Facebook"
-            style="width:20px;height:20px;"
-          />
-        </a>
+   <footer>
+  <p id="foot">
+    &copy;
+   | Nokwazi Kunene | Florida | <a href="https://www.byui.edu/online" style="color: #B7B7A4">BYUI Online Learning</a></a>     
 
-        <a href="https://instagram.com">
-          <img
-            src="https://cdn.glitch.com/a336bbab-510f-4871-bafe-2be509c41141%2Finstagram-icon_1057-2227.jpg?v=1600478937730"
-            alt="Instagram"
-            style="width:20px;height:20px;"
-          />
-        </a>
-
-        <a href="https://twitter.com">
-          <img
-            src="https://cdn.glitch.com/a336bbab-510f-4871-bafe-2be509c41141%2F124021.png?v=1600478819934"
-            alt="Twitter"
-            style="width:20px;height:20px;"
-          />
-        </a>
-      </div>
-    </footer>
-  </body>
-</html>
+  </p>
+  Last Modified: 
+  <span id="last-modified">01/23/2022 12:16:31</span>
+</footer>
+<script src="jsDate.js"></script>
+</body>
+</html> 
