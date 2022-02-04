@@ -6,163 +6,13 @@
 body {
     font-family: 'Nunito', sans-serif;
 }
-header {
-    background-color: #6B705C;
-    color: #F7F7F7;
-    display: grid;
-    grid-template-columns: 1fr 3fr 2fr 1fr;
-    padding: 1em;
-}
-header h1 {
-    font-size: 16px;
-    font-family: 'Ubuntu', serif;
-}
-header h2 {
-    font-size: 12px;
-    font-family: 'Ubuntu', serif;
-}
-.logo img {
-    width: 60px;
-    margin: .7em;
-    grid-column: 1/2;
-}
-.chamberName {
-    grid-column: 2/3;
-    margin-right: 1em;
-    align-self: center;
-}
-.social {
-    grid-column: 3/4;
-    align-self: center;
-}
-.nav {
-    grid-column: 3/4;
-    align-self: center;
-}
-.social img {
-    width: 35px;
-}
-#date {
-    background-color: #666;
-    grid-column: 1/5;
-    padding: 1em;
-    text-align: center;
-}
-/* Nav style */
-nav button {
-    margin: .2rem 2vw;
-    background: transparent;
-    border: 1px solid #eee;
-    font-size: 2rem;
-    color: #F7F7F7;
-    position: absolute;
-    right: 5px;
-    top: 35px;
-}
-nav {
-    background-color: #6B705C;
-    grid-column: 1/5;
-}
-nav ul {
-    
-    display:flex;
-    justify-content: left;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-nav ul li a {
-    display: block; 
-    padding: .8rem 2vw;
-    text-decoration: none;
-    color: #F7F7F7;
-    border-top: 1px solid #F7F7F7;
-}
-nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
-    color: #fff;
-}
-nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
-} 
-nav ul {
-    display: none;
-}
-nav ul.open {
-    display: block;
-}
-nav button.open {
-    border: 1px solid #073b5e;
-}
-#chamberButton span:nth-child(1) {
-    display: block;
-}
-#chamberButton span:nth-child(2) {
-    display: none;
-}
-#chamberButton.open span:nth-child(1) {
-    display: none;
-}
-#chamberButton.open span:nth-child(2) {
-    display: block;
-}
 
-main {
-    margin: 1em;
-    display: grid;
-    grid-gap: 1em;
-    color: #191924;
-}
-main div {
-    background-color: #3a4958;
-    padding: 1em;
-    padding-bottom: 100px;
-    border: 1px solid #444;
-}
-.jointeam {
-    display: none;
-}
-.news {
-    padding-bottom: 1em
-}
-.owservices p:nth-child(3) {
-    display: none;
-}
-.events p {
-    border: 1px solid #444;
-    margin: 0;
-    padding: 1em;
-    padding-bottom:200px
-}
-footer {
-  background-color: #6B705C;
-  color: #B7B7A4;
-  text-align: center;
-  margin-left: 50px;
-  border-radius: 5px;
-  padding-bottom: 20px;
-}
-footer img {
-    max-width: 150px;
-    margin-right:auto;
-    margin-left:auto;
-    display: block
-}
-.contact {
-    padding-bottom: 1em;
-}
-.contact a {
-    color: #F7F7F7;
-    text-decoration: none;
-}
-.myInfo {
-    border-top: 1px solid #F7F7F7;
-}
+    
     
     /* banner */
 .banner {
     text-align: center;
-    background-color: #0E78BE;
+    background-color: #6B705C;
     margin: 0;
     padding: .5em;
 }
@@ -176,7 +26,7 @@ body {
 }
 header {
     position: relative;
-    background-color: #073B5E;
+    background-color: #6B705C;
     color: #F7F7F7;
     display: grid;
     grid-template-columns: 1fr 3fr 2fr 1fr;
@@ -213,7 +63,7 @@ header h2 {
     width: 35px;
 }
 #date {
-    background-color: #666;
+    background-color: #6B705C;
     grid-column: 1/5;
     padding: 1em;
     text-align: center;
@@ -239,7 +89,7 @@ nav button {
     top: 35px;
 }
 nav {
-    background-color: #073B5E;
+    background-color: #6B705C;
     grid-column: 1/5;
 }
 nav ul {
@@ -351,7 +201,7 @@ footer img {
 }
 #joinButton {
     color:#F7F7F7;
-    background-color: #191924;
+    background-color: #6B705C;
     border-color: #F7F7F7;
     padding: 10px 15px;
     text-decoration: none;
