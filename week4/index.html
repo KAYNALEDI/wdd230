@@ -26,20 +26,23 @@
 </head>
 
 <body>
+           <div class="banner" id="banner" style="display: none">
+        <p> Come to our open Arts and Crafts day for little and big tots!</p>
+    </div>
+    <div class="content">
     <header>
         <img src="images/wee.jpeg" alt="logo">
         <h1>Oar Chamber Services</h1>
-
-    </header>
-    <nav class="clearfix">
+       </div>  
+         <nav class="clearfix">
                          
                <div class="social">
                 <a href="https://twitter.com" target="blank"><img src="images/twitter.png" alt="Twitter Link"></a>
                 <a href="https://facebook.com" target="blank"><img src="images/facebook.png" alt="Facebook Link"></a>
             </div>
 
-        <button onclick="toggleMenu()">&#9776; Menu</button>
-        <ul id="primaryNav" class="hide">
+         <button id="chamberButton"><span>&#9776;</span><span>X</span></button>
+                <ul id="navBar">
 
             <li class="active"><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
@@ -47,15 +50,26 @@
             <li><a href="contact.html">Contact</a></li>
 
         </ul>
-    </nav>
+    </nav>                                    
+                                             
+
+    </header>
+    
     <main>
-         <main>
+        
            
             <div class="events">
                 <p>Oar Event</p>
+                  <button id="joinButton"> Join </button>
             </div>
             <div class="owservices">
                 <p><span>Oar Weather Services</span></p>
+                                   
+                <img src="we.jpeg" alt="weather image">
+                <p>78° F</p>
+                <p>Sunny</p>
+                <p><span>Wind Speed:     16 mph SE</span> </p>
+               
             </div>
             <div class="news">
                 <p>News Release</p>
