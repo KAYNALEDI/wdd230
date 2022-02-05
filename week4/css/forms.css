@@ -40,6 +40,7 @@
 <body>    
 * {
   box-sizing: border-box;
+   background-color: #B9A2A2;
 }
 
 html,
