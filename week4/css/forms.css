@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>The Whimsical</title>
+    <title>Oar Chamber Services</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
@@ -11,8 +11,8 @@
     <div class="logo-box">
       <img
         class="logo-image"
-        src="https://cdn.glitch.com/c718e11d-7f9b-4f6d-b1ad-fca528511905%2FParmesan%20Cheese.png?v=1602919010023"
-        alt="The Whimsical Logo"
+        src="images/wee.jpeg"
+        alt=" Logo"
       />
     </div>
     <nav>
@@ -111,7 +111,7 @@ a {
   border-radius: 5px;
   border: 2px solid black;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #B9A2A2;
   text-decoration: none;
   text-align: center;
   padding: 0.375em 0.5em 0.1875em;
