@@ -23,7 +23,7 @@ main {
 
 div.place-holder {
     padding: 1rem;
-    background-color: #eee;
+    background-color: #B9A2A2;
     border: dashed 1px #242424;
     margin-bottom: 20px;
     font-style: italic;
@@ -31,7 +31,7 @@ div.place-holder {
 
 footer {
     box-shadow: 0 0 10px #242424;
-    background-color: #090f62;
+    background-color: #B9A2A2;
     font-family: var(--paragraph-font);
     color: #ffffff;
     text-align: center;
@@ -94,7 +94,7 @@ a {
 header {
     padding: 1rem;
     text-align: center;
-    background-color: #090f62;
+    background-color: #242424;
 }
 
 header span {
