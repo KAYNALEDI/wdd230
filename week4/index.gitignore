@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAR CHAMBER SITE</title>
+     <meta name="description" content="Lesson 4: Chamber Home Page Build" WDD 230: Web Frontend Development assignment at Brigham Young University - Idaho">
+     <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@700&display=swap" rel="stylesheet"></head>                                          
+            
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+   <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  </head>
+
+    <body>
+    <header>
+        <img src="images/wee.jpeg" alt="logo">
+        <h1>Oar Chamber Contact Information</h1>
+
+    </header>
+    <nav class="clearfix">
+                         
+               <div class="social">
+                <a href="https://twitter.com" target="blank"><img src="images/twitter.png" alt="Twitter Link"></a>
+                <a href="https://facebook.com" target="blank"><img src="images/facebook.png" alt="Facebook Link"></a>
+            </div>
+
+        <button onclick="chamberButton">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+           <li><a href="forms.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+
+  <body>
+
+        <main>
+          <div class="ocservices">
+            <span
+              ><img src="images/lake-full.jpg" alt="crystal clear lake image"
+            /></span>
+            <span
+              ><img
+                src="images/lake_wide.jpg"
+                alt="crystal clear lake wide image"
+            /></span>
+           
+            <h2><strong>Welcome to Oar Chamber Services</strong></h2>
+            <button id="joinButton">Join OCS</button>
+          </div>
+          <div class="shop">
+            <h2>OCS tools</h2>
+            <h3><strong> Shop our Toolbox? </strong></h3>
+            <p>
+              We want to provide the tools and resources for their families
+              about communication, fine motor, and sensory needs; as well as
+              detailed evaluations so that answers can be provided regarding
+              development, prognosis, and progress towards their goals.
+            </p>
+          </div>
+          <div class="">
+            <h2>Weather</h2>
+            <img src="we.jpeg" alt="weather image" />
+           
+          </div>
+          <div class="events">
+            <h2>Travel With US</h2>
+            <p>
+              Oar Chamber Services is here to inspire you to see the world
+              through a new lens. As Mark Twain said “travel is fatal to
+              prejudice, bigotry and narrow-mindedness.” Travel is not just
+              about the places we visit, but the people we meet and the person
+              we become.
+            </p>
+          </div>
+          <div class="Highlights">
+            <div class="transport">
+              <div class="contact1">
+                <h2><span>Oar Logistics Services</span></h2>
+                <img src="images/truck.jpeg" alt="Truck" />
+                <p><em>"We got you!"</em></p>
+                <p>logistics@ocw.com</p>
+              </div>
+            </div>
+            <div class="news">
+              <div class="contact2">
+                <h2><span>We </span></h2>
+                <img src="images/persona2.jpeg" alt="happy image" />
+                <p></p>
+              </div>
+            </div>
+
+            <div class="events">
+              <p>Oar Events</p>
+              <button id="Calender">Events Calender</button>
+            </div>
+            <div class="owservices">
+              <p><span>Oar Weather Services</span></p>
+              <img src="we.jpeg" alt="weather image" />
+              <p>78° F</p>
+              <p>Sunny</p>
+              <p><span>Wind Speed: 16 mph SE</span></p>
+
+              <div class="jointeam">
+                <span><button id="join2button">Join Us!</button></span>
+                <p>
+                  We are a boutique private practice that offers competitive
+                  wages and a friendly, fun, and flexible work environment.
+                </p>
+
+                <p>careers@ocs.com</p>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <footer>
+          <div class="myInfo">
+            <p>&copy;<span id="currentyear"></span> Oar Chamber services</p>
+            <p><strong> Nokwazi Kunene </strong></p>
+            <p>WDD 230 Project</p>
+            <p>
+              <span id="lastinfo"
+                >Last Modification: <span id="lastmodified"></span
+              ></span>
+            </p>
+          </div>
+        </footer>
+        <script src="js/index.js"></script>
+      </div>
+   
+  </head>
+</html>
