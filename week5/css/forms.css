@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Oar Chamber Services</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <header>
+    <div class="logo-box">
+      <img
+        class="logo-image"
+        src="images/wee.jpeg"
+        alt=" Logo"
+      />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="personal-site-plan.html">Site Plan</a></li>
+        <li><a href="rates.html">Rates</a></li>
+         <li><a href="forms.html">Forms</a></li>
+         <li><a href="card.html">Card</a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <main>
+<body>
+   <div class="banner-box">
+      <img
+        class="logo"
+        src="wee.jpeg" alt="banner"
+      />
+    </div>
+
+<body>    
+* {
+  box-sizing: border-box;
+   background-color: #B9A2A2;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: @import
+    url("https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@700&display=swap");
+  font-size: 16px;
+  line-height: 160%;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 100px;
+}
+
+.info {
+  max-width: 370px;
+  z-index: 1;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 130%;
+  font-weight: bold;
+}
+
+a {
+  color: #000;
+}
+
+.decorative-image {
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
+  width: 50vw;
+  max-width: 1000px;
+}
+
+@media (max-width: 620px) {
+  .container {
+    padding: 40px;
+  }
+
+  .decorative-image {
+    right: 20px;
+    bottom: 20px;
+    width: 80vw;
+  }
+}
+
+.button-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-wrap * + * {
+  margin-left: 7px;
+}
+
+.button {
+  border-radius: 5px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  background-color: #B9A2A2;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.375em 0.5em 0.1875em;
+  font-weight: 600;
+  line-height: 1;
+}
