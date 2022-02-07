@@ -47,6 +47,13 @@
     .logo img {
         width: 80px;
     }
+    
+    .announcement {
+            background-color: #5bc0be;
+            color: #2c497f;
+            font-size: 20px;
+          }
+    
     /* footer */
     footer {
         display:grid;
