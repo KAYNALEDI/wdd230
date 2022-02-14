@@ -38,12 +38,12 @@
     nav ul li a {
         display: block;
         padding: 1.2rem 2.5rem;
-        color: #FAEDCD;
-        background-color: #A16F57;
+        color: #F7F7F7;
+        background-color: #B9A2A2;
     }
     
     nav ul li a:hover {
-        background-color: #9EAD5A;
+        background-color: #B9A2A2;
     }
     
     /* MAIN */
