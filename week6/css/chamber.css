@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Sarala:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@700&display=swap");
 
 :root {
     
@@ -23,7 +23,7 @@ header {
     display: grid;
     grid-template-columns: 5fr 1fr .7fr;
     align-items: center;
-    color: #9EAD5A;
+    color: ##dbebf1;
    // background-image:
 }
 
@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #9EAD5A;
+    background-color: #242424;
 }
 
 nav ul {display:none;}
@@ -113,7 +113,7 @@ nav ul.open {display:block;}
     width: calc(100% - 2rem);
     margin-top: 1rem;
     padding: 1em;
-    background-color: #9EAD5A;
+    background-color: #B9A2A2;
     color: black;
 }
 
@@ -126,8 +126,8 @@ main {
 
 main div {
     
-    background-color: #DAE3AA;
-    color: #494A40;    
+    background-color: #B9A2A2;
+    color: #F7F7F7;    
 }
 
 
@@ -141,7 +141,7 @@ main div {
     background-color: transparent;
 }
 .hero h2 {
-    color: #FAEDCD;
+    color: #F7F7F7;
     font-size: 17px;
     font-family: var(--heading-font);
     position: absolute;
@@ -161,8 +161,8 @@ main div {
 }
 #joinButton {
     color:#494A40;
-    background-color: #FAEDCD;
-    border-color: #494A40;
+    background-color: #B9A2A2;
+    border-color: #F7F7F7;
     padding: 10px 8px;
     text-decoration: none;
     display: inline-block;
@@ -289,7 +289,7 @@ h2 {
 
 
 footer {
-    background-color: #9EAD5A;
+    background-color: #B9A2A2;
     color: #494A40;
     text-align: center;
     padding: 5px 10px 5px 10px;
@@ -314,6 +314,6 @@ footer {
 .final-info > hr {
     margin: 1.5rem 0 1rem;
     border: 1px solid rgba(255, 255, 255, 0.5);
-    background-color: var(--primary-color);
+    background-color: #B9A2A2;
     color: #494A40;
 }
