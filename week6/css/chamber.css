@@ -18,12 +18,12 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     position: relative;
-    background-color: var(--primary-color);
+    background-color:#B9A2A2;
     padding: 1rem;
     display: grid;
     grid-template-columns: 5fr 1fr .7fr;
     align-items: center;
-    color: #B9A2A2;
+    color: #000000;
    // background-image:
 }
 
@@ -46,7 +46,7 @@ nav ul li a {
     display: block;
     padding: 1.2rem 2vw;
     text-decoration: none;
-    color: #B9A2A2;
+    color: #000000;
     background-color:#B9A2A2;
 }
 
@@ -127,7 +127,7 @@ main {
 main div {
     
     background-color: #B9A2A2;
-    color: #F7F7F7;    
+    color: #000000;    
 }
 
 
@@ -141,7 +141,7 @@ main div {
     background-color: transparent;
 }
 .hero h2 {
-    color: #F7F7F7;
+    color: #000000;
     font-size: 17px;
     font-family: var(--heading-font);
     position: absolute;
@@ -160,7 +160,7 @@ main div {
     display: none;
 }
 #joinButton {
-    color:#494A40;
+    color:#000000;
     background-color: #B9A2A2;
     border-color: #F7F7F7;
     padding: 10px 8px;
@@ -197,7 +197,7 @@ h2 {
 }
 
 .event h2 {
-    color:  #9EAD5A;
+    color:  #000000;
     text-shadow: 2px 2px #B9A2A2;
  
 }
@@ -212,7 +212,7 @@ h2 {
 }
 
 .weather h2{
-  color:  #9EAD5A;
+  color:  #000000;
   text-shadow: 2px 2px #B9A2A2;
 }
 .weather img {
@@ -236,7 +236,7 @@ h2 {
 }
 
 .new-release h2{
-  color:  #9EAD5A;
+  color:  #000000;
   text-shadow: 2px 2px #FAEDCD;
   text-align: center;
 }
@@ -264,7 +264,7 @@ h2 {
 }
 
 .grow h2 {
-    color:  #9EAD5A;
+    color:  #000000;
     text-shadow: 2px 2px #FAEDCD;
  
 }
@@ -282,7 +282,7 @@ h2 {
 }
 
 .honey h2 {
-    color:  #9EAD5A;
+    color: #000000;
     text-shadow: 2px 2px #FAEDCD;
  
 }
@@ -290,7 +290,7 @@ h2 {
 
 footer {
     background-color: #B9A2A2;
-    color: #B9A2A2;
+    color: #000000;
     text-align: center;
     padding: 5px 10px 5px 10px;
     
@@ -315,5 +315,5 @@ footer {
     margin: 1.5rem 0 1rem;
     border: 1px solid rgba(255, 255, 255, 0.5);
     background-color: #B9A2A2;
-    color: #B9A2A2;
+    color: #000000;
 }
