@@ -23,7 +23,7 @@ header {
     display: grid;
     grid-template-columns: 5fr 1fr .7fr;
     align-items: center;
-    color: ##dbebf1;
+    color: #B9A2A2;
    // background-image:
 }
 
@@ -46,8 +46,8 @@ nav ul li a {
     display: block;
     padding: 1.2rem 2vw;
     text-decoration: none;
-    color: #FAEDCD;
-    background-color: #A16F57;
+    color: #B9A2A2;
+    background-color:#B9A2A2;
 }
 
 nav ul li a:hover {
@@ -198,7 +198,7 @@ h2 {
 
 .event h2 {
     color:  #9EAD5A;
-    text-shadow: 2px 2px #FAEDCD;
+    text-shadow: 2px 2px #B9A2A2;
  
 }
 
@@ -213,7 +213,7 @@ h2 {
 
 .weather h2{
   color:  #9EAD5A;
-  text-shadow: 2px 2px #FAEDCD;
+  text-shadow: 2px 2px #B9A2A2;
 }
 .weather img {
     margin-left: 1em;
@@ -290,7 +290,7 @@ h2 {
 
 footer {
     background-color: #B9A2A2;
-    color: #494A40;
+    color: #B9A2A2;
     text-align: center;
     padding: 5px 10px 5px 10px;
     
@@ -315,5 +315,5 @@ footer {
     margin: 1.5rem 0 1rem;
     border: 1px solid rgba(255, 255, 255, 0.5);
     background-color: #B9A2A2;
-    color: #494A40;
+    color: #B9A2A2;
 }
