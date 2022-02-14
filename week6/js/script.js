@@ -1,24 +1,10 @@
-window.onload = function() {
-    function toggleMenu() {
-        document.getElementById('primaryNav').classList.toggle('open');
-        document.getElementById('hamburgerBtn').classList.toggle('open');
+function toggleMenu() {
+    var temp = document.getElementsByClassName("toggler")[0]
+    temp.classList.toggle("hide")
+    if (temp.classList[1]=="hide") {
+        document.querySelector(".toggler > a").innerHTML = "&#9748; Menu"
     }
-
-    const x = document.getElementById('hamburgerBtn');
-    x.onclick = toggleMenu;
-    let lastModified = document.lastModified;
-    
-    document.getElementById('lastUpdate').textContent = (`Last modification: ${lastModified}`);
-    let currentYear = document.querySelector('#currentYear');
-
-    year = new Date().getFullYear();
-
-    currentYear.textContent = year;
-
-    const now = new Date();
-    const currentDate = new Intl.DateTimeFormat("en-UK", {
-        dateStyle: "full"
-    }).format(now);
-
-    document.getElementById('currentDate').textContent = currentDate;
+    else {
+        document.querySelector(".toggler > a").innerHTML = "&#10060; Close"
+    }
 }
