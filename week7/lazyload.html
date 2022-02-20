@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/lazyload.css">
+  <title>Lazy Load</title>
+    <meta name="description" content="Lesson 7: Progressive Loading of Images" WDD 230: Web Frontend Development assignment at Brigham Young University - Idaho">
+</head>
+  <body>
+    <header>
+        <h1>Progressive Loading of Images</h1>
+    </header>
+    <main>
+        <img src="images/placeholder-300x400.png" data-src="" alt="">
+        <img src="images/placeholder-300x400.png" data-src="h" alt="">
+        <img src="images/placeholder-300x400.png" data-src="https:" alt="">
+        <img src="images/placeholder-300x400.png" data-src="https://" alt="">
+        <img src="images/placeholder-300x400.png" data-src="https:/0" alt="">
+        <img src="images/placeholder-300x400.png" data-src="https:/" alt="">
+    </main>
+    <script src="js/lazyload.js"></script>
+  </body>
+</html>
