@@ -13,7 +13,7 @@ header {
 
 h1 {
     font-size: 30px;
-    color: #A1CABC ;
+    color: #a1b5ca;
 }
 
 main {
@@ -28,7 +28,7 @@ img[data-src] {
 img {
     transition: filter 0.5s;
     margin-top: 20px;
-    border: solid 5px #A1CABC ;
+    border: solid 5px #a1b5ca ;
 }
 
 [data-src] {
