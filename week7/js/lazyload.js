@@ -30,3 +30,6 @@ imagesToLoad.forEach((img) => {
 });
 
 }
+
+
+
