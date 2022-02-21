@@ -269,23 +269,42 @@ h2 {
  
 }
 
-.logistics{
-  grid-row: 6/3;
+.grow{
+   grid-row: 1/2;
+   padding: .5em;
+  text-align: center;
+  background-color:var(--primary-color);
+}
+
+.grow img{
+  width: 40%;
+  height: 40%;
+}
+
+.grow h2 {
+    color:  #9EAD5A;
+    text-shadow: 2px 2px #FAEDCD;
+ 
+}
+
+.honey{
+  grid-row: 2/3;
   padding: .5em;
   text-align: center;
   background-color:var(--primary-color);
 }
 
-.logistics img{
+.honey img{
   width: 30%;
   height: 25%;
 }
 
-.logistics h2 {
-    color: #000000;
+.honey h2 {
+    color:  #9EAD5A;
     text-shadow: 2px 2px #FAEDCD;
  
 }
+
 
 
 footer {
