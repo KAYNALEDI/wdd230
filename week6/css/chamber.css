@@ -270,7 +270,7 @@ h2 {
 }
 
 .logistics{
-  grid-row: 2/3;
+  grid-row: 6/3;
   padding: .5em;
   text-align: center;
   background-color:var(--primary-color);
