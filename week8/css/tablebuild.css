@@ -1,0 +1,40 @@
+body {
+    font-family: ubuntu, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    text-align:center;
+}
+table, th, td {
+    border: .1px solid grey;
+}
+thead {
+    background-color: #7fb9c2;
+    font-weight:bold;
+    font-size:20px;
+}
+tbody {
+    font-size: 16px;
+}
+tbody tr:first-child {
+    font-weight:bold;
+    color:white;
+    background-color: #628ca6;
+}
+tfoot {
+    font-size:10px;
+    background-color: #628ca6;
+}
+tbody tr:nth-child(2n+3) {
+    background-color:#e7ffed;
+}
+tbody tr:nth-child(2n+2) {
+    background-color:#e7f0ed;
+}
+tbody tr:nth-child(6) td:first-child {
+    font-style:italic;
+}
+tbody tr:nth-child(5) td:nth-child(3) {
+    background-color:#628ca6;
+    color:white;
+}
