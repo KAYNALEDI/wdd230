@@ -27,7 +27,7 @@
         /* text-align: center; */
     }
     
-    nav ul#primaryNav {
+    nav ul#navBar {
         display: flex;
         list-style-type: none;
         padding: 0;
