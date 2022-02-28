@@ -1,4 +1,46 @@
-  <main>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAR CHAMBER SITE</title>
+    <meta name="description" content="Lesson 6: Responsive Page" WDD 230: Web Frontend Development assignment at Brigham Young University - Idaho">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/chamber.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <script defer src="../js/dates.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+                     
+            <img src= "https://github.com/KAYNALEDI/wdd230/blob/Week-1/week5/images/wee.jpeg?raw=true" alt="Website logo">
+            <div class="header">
+              <h1>Oar Chamber Services</h1>
+        <span> Oar Chamber Services</span>
+                </div>
+            </div>
+        </div>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>&#10005;</span></button>
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="socials">
+            <a href="#"><img src="images/twitter.png" alt="Twitter logo"></a>
+            <a href="#"><img src="images/facebook.png" alt= "Facebook logo"></a>
+            
+        </div>
+        <div class="date"><span id="currentDate"></span></div>
+    </header>
+                                 
+<main>
         <div class="members-area">
             <h1>How to Become a Member</h1>
             <p>Becoming a member of the Albay Chamber is simple. Just fill out our <a href="/chamber/join.html">member registration form</a> and Chamber staff will follow up with you.  Our memberships run on a calendar year, January through December, so depending on the month you join, you will pay a prorated rate.  Our staff will discuss the options with you.
@@ -47,4 +89,12 @@
             <li>Multiple KNOW and Young Professionals Memberships</li>
         </div>
     </main>
-    <footer>
+    <div>
+          &copy; <span id="copyrightyear"></span> | Nokwazi Kunene| Florida| <a href="https://www.byui.edu/online">BYUI
+                Online Learning</a>
+        </div>
+        Last Updated: <span id="last-updated"></span>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
