@@ -14,14 +14,14 @@ header {
     margin: 1rem auto;
     border: 10px solid #333;
     box-shadow: 0px 0px 26px 1px #084140;
-    background-color: #084140;
+    background-color: #b9a2a2;
 }
 
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #f3f3f3;
+    background-color:  #b9a2a2;
     line-height: 0.5px;
     color: #333;
 }
