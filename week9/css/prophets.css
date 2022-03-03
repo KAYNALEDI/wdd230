@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@700&display=swap");
+
+:root {
+    
+    --primary-color: #B9A2A2;
+    --heading-font: 'Ubuntu', sans-serif;
+    --paragraph-font: 'Quicksand', sans-serif;
+    
 header {
     text-align: center;
-    color: #081145;
-    font-family: Helvetica, sans-serif, serif;
+    color: #1d1e21;
+    font-family: Ubuntu, sans-serif, serif;
     font-size: 1.5rem;
 }
 
@@ -13,7 +21,7 @@ header {
     max-width: 1200px;
     margin: 1rem auto;
     border: 10px solid #333;
-    box-shadow: 0px 0px 26px 1px #084140;
+    box-shadow: 0px 0px 26px 1px #211b30;
     background-color: #b9a2a2;
 }
 
