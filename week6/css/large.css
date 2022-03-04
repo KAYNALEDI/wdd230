@@ -18,34 +18,7 @@
         color: black;
         
     }
-    
-    nav {
-        /* justify-self: center; */
-        grid-row: 1;
-        grid-column: 2 / 5;
-        /* width: 100%; */
-        /* text-align: center; */
-    }
-    
-    nav ul#primaryNav {
-        display: flex;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        justify-content: flex-end
-    }
-    
-    nav ul li a {
-        display: block;
-        padding: 1.2rem 2.5rem;
-        color: #F7F7F7;
-        background-color: #B9A2A2;
-    }
-    
-    nav ul li a:hover {
-        background-color: #B9A2A2;
-    }
-    
+   
     /* MAIN */
     
     main {
