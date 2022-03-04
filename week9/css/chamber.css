@@ -1,67 +1,57 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-body{
-  min-width: 100%;
-  min-height: 100%;
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
 }
 
-button{
-  border:1px solid gray;
-  background-color: transparent;
-  display: inline-block;
-}
-
-.show{
-  display: inline-block;
-}
-.right{
-  float:right;
-}
-nav{
-  background-color: #3d3d3d !important;
-  color: #ffffff;
-  height:auto;
-  width: 100%;
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
   display: block;
-}
-nav>ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  background-color: #3d3d3d;
-}
-nav>ul>li>a {
-  display: block;
-  color: #ffffff;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-@media only screen and (max-width: 360px) {
-  .hide-lg{
-    display:inline-block;
-  }
-  ul{
-    display: none;
-  }
-  /* mobile */
-  /* WHAT NOW? */
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-@media only screen and (min-width: 361px) {
-  .hide-lg{
-    display: none !important;
-  }
-  nav>ul{
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
     display: block;
   }
-  nav>ul>li {
-    /* bar layout */
-    display: inline-block;
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
-  nav>ul>li>a{
+  .topnav.responsive a {
+    float: none;
     display: block;
-    width:100%;
-    height: 100%;
+    text-align: left;
   }
 }
