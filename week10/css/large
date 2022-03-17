@@ -1,0 +1,77 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 72rem) {
+    header div {
+        justify-content: left;
+        margin-left: 10rem;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 975px;
+    }
+    nav ul li a {
+        font-size: 1.2rem;
+        padding: 0rem;
+    }
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+    #hero-div {
+        position: relative;
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    #hero-medium {
+        margin: 0 auto;
+    }
+    table {
+        max-width: 70rem;
+    }
+    table td {
+        font-size: 2rem;
+    }
+    #stats {
+        background-color: rgba( 5, 75, 166, .6);
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+    }
+    #stats div {
+        font-size: 1.5rem;
+    }
+    #article-image {
+        max-width: 30%;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        float: right;
+    }
+    #contact iframe {
+        margin: 0;
+    }
+    #contact {
+        text-align: left;
+        display: flex;
+        flex-flow: row-reverse;
+        justify-content: space-evenly;
+        padding: 2rem;
+    }
+    #contact section div a {
+        display: inline;
+        padding: .25rem;
+    }
+    footer {
+        max-width: 100%;
+    }
+}
