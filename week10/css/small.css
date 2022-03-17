@@ -1,0 +1,145 @@
+/*Font CSS */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway:wght@300&display=swap');
+h1, h2, a{
+    font-family: 'Architects Daughter', cursive;
+}
+p, div, table {
+    font-family: 'Raleway', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+/* Header CSS */
+header img {
+    height: 200px;
+}
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Nav CSS */
+nav {
+    background-color: #054BA6;
+    text-align: right;
+    display: block;
+    padding: 0;
+    align-items: center;
+}
+nav button {
+    background-color: #054BA6;
+    color: #F2F2F2;
+    border: none;
+    font-size: 2.5rem;
+}
+nav ul { 
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+nav ul li.active a{
+    font-style: italic;
+    font-size: 1.8rem;
+}
+nav ul.hide {
+    display: none;
+}
+/* Footer CSS */
+footer {
+    background-color: #054BA6;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+footer a {
+    text-align: center;
+    color: white;
+}
+/* Banner CSS */
+header p {
+    background-color: #F69A19;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+/* Main CSS */
+main div{
+    margin: 0 auto;
+}
+#hero-mobile {
+    max-width: 100%;
+}
+main h2 {
+    max-width: 40rem;
+    text-align: center;
+
+    margin: 1rem auto;
+}
+#hero-div {
+    position: relative;
+    text-align: center;
+}
+#stats {
+    background-color: #054BA6;
+    color: white;
+    padding: .5rem;
+    text-align: center;
+}
+#stats hr {
+    color: white;
+}
+#stats h3 {
+    display: inline;
+}
+#stats div {
+    color: #F69A19;
+    display: inline;
+}
+table, th, td {
+    table-layout: fixed;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: .5rem .3rem;
+    font-size: 1.3rem;
+    width: 95%;
+    background-color: #054BA6;
+    color: white;
+    text-align: center;
+}
+article {
+    padding: 2rem;
+    text-align: center;
+}
+article p {
+    text-align: left;
+}
+#article-image {
+    max-width: 100%;
+}
+#contact {
+    text-align: center;
+}
+#contact iframe {
+    max-width: 80%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+#contact section div a {
+    display: none;
+}
