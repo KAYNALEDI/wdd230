@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site</title>
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/weather-logo.png" type="image/x-icon">
+</head>
+<body onload="getTime()">
+    <header>
+        <p id="banner"></p>
+        <div>
+        <img src="/lesson5/images/weather-logo.png" alt="Weather Logo">
+        <section>
+        <h1>Lynn Forecast</h1>
+        <h2>Weather right!</h2>
+        </section>
+        </div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="menu" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="hero-div">
+            <img id="hero-mobile" src="images/hero-mobile.jpg" alt="hero image of mountains">
+            <section id="stats">
+                <h2>Weather Summary</h2>
+                <hr><br>
+                <h3>Currently: </h3><div id="current-temp"></div><br><br>
+                <h3>High: </h3><div id="max-temp"></div><br><br>
+                <h3>Wind Chill: </h3><div id="chill"></div><br><br>
+                <h3>Wind Speed: </h3><div id="speed"></div><br><br>
+                <h3>Humidity: </h3><div id="humidity"></div><br><br>
+            </section>
+        </div>
+        <h2>5 Day Forecast</h2>
+        <table class="five-day">
+            <tr id="forecastDays">
+                <th>Wed</th>
+                <th>Thurs</th>
+                <th>Fri</th>
+                <th>Sat</th>
+                <th>Sun</th>
+            </tr>
+            <tr id="forecast">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <article>
+        <h2>Article</h2>
+        <img id="article-image" src="images/article_images/article-image.jpg" alt="image of hiker" sizes="100vw"
+        srcset="images/article_images/article-image-small.jpg 400vw,
+                images/article_images/article-image-medium.jpg 640vw">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultrices, mauris sit amet pulvinar 
+            rhoncus, justo magna congue erat, vitae mollis leo urna et ipsum. Sed quis posuere justo. Donec vitae 
+            malesuada ipsum. Sed sagittis orci eget egestas pretium. Morbi nec enim eget nisl pretium eleifend 
+            vel sit amet lacus. Proin mi nibh, placerat eu facilisis porta, feugiat non quam. Mauris rutrum 
+            dapibus quam. Donec hendrerit metus sed eros bibendum, a pellentesque lorem congue. Nullam non 
+            orci augue. Duis orci diam, facilisis ac sapien vitae, consequat rutrum turpis. In auctor mauris 
+            vel erat commodo feugiat. Proin posuere tellus a ex condimentum, nec convallis odio dictum.<br><br>
+            Praesent volutpat pulvinar pharetra. Nullam sed purus sit amet mauris semper sagittis quis quis 
+            magna. Fusce ultrices porta dui, ac porttitor libero semper nec. In dapibus dolor nec ultrices 
+            luctus. Maecenas placerat nec velit ac efficitur. Maecenas vulputate vehicula nunc id tristique. 
+            Sed mattis vitae felis id accumsan. Donec faucibus consequat leo nec dapibus. Cras et ante ullamcorper, 
+            porttitor metus eget, malesuada turpis. Ut laoreet ipsum nisi, et euismod ante lobortis eget. Nunc 
+            vitae leo sit amet eros finibus porttitor. Sed sit amet sem sit amet neque aliquam pulvinar nec vitae 
+            lorem. Integer ultricies aliquam mauris, in rhoncus nulla efficitur at. Aliquam eleifend diam sed leo 
+            auctor vehicula. Vivamus sit amet leo orci. Aliquam erat volutpat.
+            Integer tristique nibh a odio congue, sit amet aliquam tellus feugiat. In nec mi libero. Nullam ultrices 
+            lorem sit amet felis laoreet, at eleifend ligula aliquam. Donec quis blandit enim, vel egestas dui. 
+            Pellentesque orci quam, rutrum eu ex ac, gravida fermentum nibh. Vivamus varius libero sed ante mollis 
+            laoreet. Morbi a ipsum malesuada est ultricies tempus. Ut lacinia justo ac urna auctor ultricies a 
+            vitae sapien. Etiam convallis leo lobortis ipsum facilisis bibendum.<br><br>
+            In ultrices enim sed nisl molestie cursus. Integer dictum ante in purus laoreet interdum. Quisque 
+            eu nisl id velit varius tempor. Vestibulum nec tincidunt mi. Pellentesque iaculis risus arcu. 
+            Nullam sagittis a turpis quis imperdiet. Suspendisse ullamcorper leo a ligula varius, ut pulvinar 
+            quam sollicitudin. Morbi ac molestie erat, ac vestibulum urna. Curabitur cursus eleifend ante ac 
+            vestibulum. Maecenas ut leo ut dolor eleifend consequat. Cras in tempus nisl. Integer justo justo, 
+            posuere sit amet lacus ac, mollis placerat ante. Proin vitae nunc eget ipsum volutpat varius. Nam 
+            aliquet urna tortor, id iaculis justo porttitor et. In aliquet dolor id vulputate fermentum. Cras diam 
+            eros, sollicitudin et velit a, sagittis volutpat ante.</p>
+        </article>
+        <div id="contact">
+            <section>
+            <h2>Contact Information</h2>
+            <h4>📧 Contact@LynnWeather.com</h4>
+            <h4>📞 (801)234-9876</h4>
+            <div>
+                <a target="_blank" href="https://facebook.com"><img
+                src="images/media_icons/facebook.png"
+                alt="Facebook icon"/></a>
+                <a target="_blank" href="https://twitter.com"><img
+                src="images/media_icons/twitter.png"
+                alt="Twitter icon"/></a>
+                <a target="_blank" href="https://instagram.com"><img
+                src="images/media_icons/instagram.png"
+                alt="Instagram icon"/></a>
+            </div>
+            <br>
+            <div>Weather Data Courtesy of <a href="https://openweathermap.org/">Open Weather Map</a></div>
+            </section>
+            <a title="Click to go to Google maps" target="_blank" href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153443,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173">
+                <img src="images/preston.jpg" alt="map of preston"></a>
+        </div>
+    </main>
+    <footer>
+        <div>&copy; The Weather Site | Attributions | Alexander Joshua Lynn</div>
+        <p id="time"></p><br>
+        <a href="/index.html">Course Work Homepage</a>
+        <script src="/lesson10/js/siteScripts.js"></script>
+    </footer>
+</body>
+</html>
