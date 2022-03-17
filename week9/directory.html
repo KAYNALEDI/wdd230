@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Alexander Lynn Provo Chamber of Commerce">
+    <title>Chamber Directory</title>
+    <link href="css/general_style.css" rel="stylesheet">
+    <link href="css/content_style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logos/chamber_logo.png" type="image/x-icon">
+</head>
+<body onload="loadDirectory()">
+    <header>
+        <img src="images/logos/chamber_logo.png" alt="Chamber Logo">
+        <h1>Provo Chamber of Commerce</h1>
+    </header>
+
+    <nav class="sticky">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="menu" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="city.html">Provo City</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="join.html">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="buttonContainer">
+        <h3>Change View</h3>
+        <img class="viewButton" src="images/buttons/grid_white.png" onclick="gridView()">
+        <img class="viewButton" src="images/buttons/list_white.png" onclick="listView()">
+    </div>
+
+    <main id="directory" class="grid">
+
+    </main>
+
+    <footer>
+        <section>
+            <p>Contact Information</p> <hr>
+            <p>Email - help@provochamber.org</p>
+            <p>Phone - 801-879-0392</p> <hr>
+        </section>
+        <section>
+            <a href="https://facebook.com" ><img src="images/media_icons/facebook.png" alt="Facebook Link"></a>
+            <a href="https://instagram.com" ><img src="images/media_icons/instagram.png" alt="Instragram Link"></a>
+            <a href="https://twitter.com" ><img src="images/media_icons/twitter.png" alt="Twitter Link"></a>
+        </section>
+        <div>&#169; Alexander Lynn 2021 | <a href="pages/attributions.html">Attributions</a></div>
+        <div id="lastModifiedDate"></div>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
