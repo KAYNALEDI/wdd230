@@ -50,4 +50,3 @@ var proxy = 'https://cors-anywhere.herokuapp.com/';
   });
 
 
-
