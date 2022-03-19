@@ -1,0 +1,135 @@
+/*Font CSS */
+/* @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway:wght@300&display=swap'); */
+h1, h2, h3, a  {
+    font-family: 'Architects Daughter', cursive;
+}
+p, div, table {
+    font-family: 'Raleway', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+/* Header CSS */
+header img {
+    height: 200px;
+}
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Nav CSS */
+nav {
+    background-color: #054BA6;
+    text-align: right;
+    display: block;
+    padding: 0;
+    align-items: center;
+}
+nav button {
+    background-color: #054BA6;
+    color: #F2F2F2;
+    border: none;
+    font-size: 2.5rem;
+}
+nav ul { 
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+nav ul li.active a{
+    font-style: italic;
+    font-size: 1.8rem;
+}
+nav ul.hide {
+    display: none;
+}
+/* Footer CSS */
+footer {
+    background-color: #054BA6;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+footer a {
+    text-align: center;
+    color: white;
+}
+#contact {
+    text-align: center;
+}
+#contact img {
+    max-width: 90%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+#contact section div a {
+    display: none;
+}
+/* Homepage CSS */
+#hero-image {
+    max-width: 100%;
+}
+#content section {
+    background-color: #054BA6;
+    display: flex;
+    flex-flow: column;
+    margin: 2rem auto 2rem auto;
+    padding-bottom: .5rem;
+    max-width: 400px
+}
+#content section div {
+    display: flex;
+    flex-flow: column;
+}
+main #content h3 {
+    color: #F69A19;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: -3rem;
+    margin-top: .5rem;
+}
+span {
+    color: lightgrey;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -2.25rem;
+    padding-bottom: 2rem;
+    font-style: italic;
+}
+main #content p {
+    color: white;
+    text-align: center;
+    margin: .25rem;
+}
+main #content img {
+    padding: 1rem;
+}
+#article {
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+#article img {
+    max-width: 80vw;
+    padding: 0;
+}
+#article h2 {
+    font-size: 2rem;
+}
+#article h3 {
+    font-size: 1.25;
+    margin-top: -1.5rem;
+}
