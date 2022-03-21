@@ -11,45 +11,34 @@
     <link rel="stylesheet" href="./css/large.css">
     <link rel="stylesheet" href="./css/weather-api.css" >              
 </head>
-<body><div class="container">
+
+   <body>
+<div class="container">
   
   <div id="app-display">
     <h1>Local Weather App</h1>
   
-       <div id="location">
-        Your Location is <span id="city">
-          
-        </span>, <span id="state"></span>
-      </div><!--End of Location-->
+       <div class="weather loading">
+      <h2 class="city">Weather in Coral Gables</h2>
+      <h1 class="temp">77°F</h1>
+      <div class="flex">
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+        <div class="description">Cloudy</div>
+      </div>
+      <div class="humidity">Humidity: 60%</div>
+      <div class="wind">Wind speed: 6.2 km/h</div>
+    </div>
+  </div>
 
-   <div id="weather">
-          <div class="row">
-             <span id="wIcon"></span>
-         </div>
-
-          <div class="row">
-           It's <span id="temp"></span> over there!
-         </div>
-
-          <div class="row">
-         <button class="btn btn-primary" id="btnToggle">Convert C/F Temp</button>
-          </div>
-  </div><!--End of Weather-->
-
-  <!--Required Credit Link-->
-    <div id="cred">
-      Powered by
-    <a href="http://openweathermap.org/api" target="_blank">Open Weather API</a>, 
- </div>
-    
+  
   </div><!--End of App Display section-->
 </div>
-                                                                          
+</body>                                                                   
 <footer>
           &copy; <span id="copyrightyear"></span> | Nokwazi Kunene| Florida| <a href="https://www.byui.edu/online">BYUI
                 Online Learning</a>
         </div>
-        Last Updated: <span id="last-updated"></span>
+        
 
     <script src="js/weather-api.js"></script>
     <script src="js/siteScript.js"></script>                               
