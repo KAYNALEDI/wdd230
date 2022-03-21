@@ -20,7 +20,7 @@ header div{
 }
 /* Nav CSS */
 nav {
-    background-color: #054BA6;
+    background-color: #B9A2A2;
     text-align: right;
     display: block;
     padding: 0;
@@ -56,7 +56,7 @@ nav ul.hide {
 }
 /* Footer CSS */
 footer {
-    background-color: #054BA6;
+    background-color: #B9A2A2;
     max-width: 60rem;
     margin: 0 auto;
     text-align: center;
@@ -83,7 +83,7 @@ footer a {
     max-width: 100%;
 }
 #content section {
-    background-color: #054BA6;
+    background-color: ##B9A2A2;
     display: flex;
     flex-flow: column;
     margin: 2rem auto 2rem auto;
