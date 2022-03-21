@@ -104,3 +104,7 @@ function validateControls() {
     getControlValues();
 
 }
+
+function placeOrder(form){
+    form.submit();
+}
