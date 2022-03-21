@@ -5,52 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OAR CHAMBER SITE</title>
+    <title>OAR CHAMBER SITE | Directory</title>
     <meta name="description" content="Lesson 9: Directory" WDD 230: Web Frontend Development assignment at Brigham Young University - Idaho">
-    <link href="css/general_style.css" rel="stylesheet">
+     <!--Favicon-->
+    <link rel="icon" href="images/favicon.ico">
+    <!--normalize CSS reference-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--stylesheets references-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <!--fonts links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+
+ <link href="css/general_style.css" rel="stylesheet">
     <link href="css/content_style.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link rel="shortcut icon" href="https://github.com/KAYNALEDI/wdd230/blob/Week-1/week5/images/wee.jpeg?raw=true" type="icon">
 </head>
-<body onload="loadDirectory()">
-    <header>
-        <img src= "https://github.com/KAYNALEDI/wdd230/blob/Week-1/week5/images/wee.jpeg?raw=true" alt="Website logo">
-            <div class="header">
-              <h1>Oar Chamber Services</h1>
-        
-    </header>
-
-    <nav class="sticky">
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="menu" class="hide">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="city.html">Miami</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="directory.html" class="active">Directory</a></li>
-            <li><a href="join.html">Join Us</a></li>
-        </ul>
-    </nav>
-
-    <div class="buttonContainer">
-        <h3>Change View</h3>
-        <img class="viewButton" src="images/buttons/grid_white.png" onclick="gridView()">
-        <img class="viewButton" src="images/buttons/list_white.png" onclick="listView()">
+                                                                                                                               
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="banner" id="banner" style="display: none">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
     </div>
-
-    <main id="directory" class="grid">
-
-    </main>
-
-    <footer>
-        <section>
-          <footer>
-        <div class="footer-1">
-            <img src="https://github.com/KAYNALEDI/wdd230/blob/Week-1/week5/images/wee.jpeg?raw=true" alt="Website logo">
-            
-        </div>
-       <div class="address">
-                
-                <p><strong>Oar Chamber Services</strong></p>
+    <div class="content">
+        <header>
+            <div class="logo">
+            <href= "https://github.com/KAYNALEDI/wdd230/blob/Week-1/week5/images/wee.jpeg?raw=true" alt="Website logo"> 
+    </div>
+            <div class="chamberName">
+                <h1>Crystal Clear Lake</h1>
+                <h2>Chamber of Commerce</h2>
+            </div> 
+            <div class="social">
+                <a href="https://twitter.com" target="blank"><img src="images/twitter.png" alt="Twitter Link"></a>
+                <a href="https://facebook.com" target="blank"><img src="images/facebook.png" alt="Facebook Link"></a>
+            </div>
+            <span id="date"></span>
+            <nav>
+                <button id="hamburguerButton"><span>&#9776;</span><span>X</span></button>
+                <ul id="navBar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li class="active"><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="dirBox">
+            <h2>Oar Chamber Services Directory</h2>
+            <div class="dirButtons"><button class="gridBtn"> &#10998;&#10998;&#10998; </button><button class="listBtn"> &#10998;&#9776;</button></div>
+            <div class="cards" id="cardToggle"></div>
+            <div class="lists" id="listToggle"><div class="listTabs"></div></div>
+        </main>
+        <footer>
+            <div class="address">
+                <img src="https://github.com/KAYNALEDI/wdd230/blob/Week-1/week5/images/wee.jpeg?raw=true" alt="Website logo">
+           <p><strong>Oar Chamber Services</strong></p>
                 <p>564 Catalonia Ave</p>
                 <p>Miami, Florida</p> 
                 <p> 33155 </p>
@@ -60,18 +77,26 @@
                 <p>info@OWS.com</p>
                 <p>+(800)123-657-11</p>
                
-            </div>                               
-            <hr>
+            </div>                   
         
-        </section>
-        <section>
-            <a href="https://facebook.com" ><img src="images/media_icons/facebook.png" alt="Facebook Link"></a>
-            <a href="https://instagram.com" ><img src="images/media_icons/instagram.png" alt="Instragram Link"></a>
-            <a href="https://twitter.com" ><img src="images/media_icons/twitter.png" alt="Twitter Link"></a>
-        </section>
-        <div>&#169; Nokwazi Kunene| <a href="pages/attributions.html">Attributions</a></div>
-        <div id="lastModifiedDate"></div>
-    </footer>
-    <script src="js/script.js"></script>
+            <div class="myInfo">
+                <p> &copy;<span id="currentyear"></span>Oar Chamber Services </p>
+                <p><strong> Nokwazi Kunene </strong> </p>
+                <p> WDD 230 Project </p>  
+                <p><span id="lastinfo">Last Modification: <span id="lastmodified"></span></span></p>
+                <div class="visitdays">
+                    <p><span id="container"></span></p>
+                </div>
+            </div>
+        </footer>
+        <!-- java reference -->
+        <script src="js/index.js"></script>
+        <!-- <script src="js/windchill.js"></script> -->
+        <script src="js/lazyload.js" defer></script>
+        <script src="js/directory.js" defer></script>
+    </div> 
 </body>
-</html>
+</html>                                                                                                                           
+                                                                                                                               
+
+    
