@@ -1,5 +1,5 @@
 // store resource URL in a const
-const requestURL = "week9/js/data.json";
+const requestURL = "https://github.com/KAYNALEDI/wdd230/blob/Week-1/week9/js/data.json";
 const cards = document.querySelector(".cards");
 const lists = document.querySelector(".listTabs")
 
