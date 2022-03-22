@@ -27,16 +27,17 @@
  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="https://github.com/KAYNALEDI/wdd230/blob/Week-1/week8/discover.html=true" >Discover</a>                                                                                      
-  <a href="#Directory">Directory</a>
-  <a href="#Careers">Careers</a>
-  <a href="#Contact">Contact</a>                  
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>       
+<span id="date"></span>
+            <nav>
+                <button id="hamburguerButton"><span>&#9776;</span><span>X</span></button>
+                <ul id="navBar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li class="active"><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>     
        
         <div class="socials">
             <a href="#"><img src="images/twitter.png" alt="Twitter logo"></a>
