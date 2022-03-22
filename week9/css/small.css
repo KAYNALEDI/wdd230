@@ -1,10 +1,10 @@
 /*Font CSS */
 /* @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway:wght@300&display=swap'); */
 h1, h2, h3, a  {
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Ubuntu', cursive;
 }
 p, div, table {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 html {
     scroll-behavior: smooth;
