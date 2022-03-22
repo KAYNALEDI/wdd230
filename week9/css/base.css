@@ -151,7 +151,7 @@ main div {
 }
 /* footer */
 footer {
-    background-color: #191924;
+    background-color: #B9A2A2;
     color: #F7F7F7;
     padding: 1em;
     text-align: center;
@@ -460,7 +460,7 @@ form label.primary input:required:valid {
 button.listBtn, button.gridBtn {
     margin: 3px;
     border: 2px solid #073B5E;
-    background-color: #0E78BE;
+    background-color: #B9A2A2;
     font-size: 40px;
     color: #F7F7F7;
 }
