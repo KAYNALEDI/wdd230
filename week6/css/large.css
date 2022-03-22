@@ -1,4 +1,17 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 73rem) {
+    /* nav */
+    nav {
+        
+        grid-column: 3/4;
+        grid-row: 1/2;
+        align-self: center;
+    }
+    nav ul#navBar {
+        display: flex;
+    }
+    nav ul li a {
+        border: none;
+    }
     header {
         grid-template-columns: 1fr 1fr 1fr 1fr .3fr;
     }
