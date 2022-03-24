@@ -139,7 +139,7 @@ main {
     color: #F7F7F7;
 }
 main div {
-    background-color: #0E78BE;
+    background-color: #B9A2A2;
     text-align: center;
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.20);
 }
@@ -193,7 +193,7 @@ footer img {
 .hero h2 {
     color: #F7F7F7;
     font-size: 16px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Ubuntu', serif;
     position: absolute;
     top: 10px;
     left: 20px;
