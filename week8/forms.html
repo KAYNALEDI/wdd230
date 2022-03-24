@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OAR CHAMBER SITE</title>
-     <meta name="description" content="Lesson 4: Chamber Home Page Build" WDD 230: Web Frontend Development assignment at Brigham Young University - Idaho">
+     <meta name="description" content="Lesson 8: Join" WDD 230: Web Frontend Development assignment at Brigham Young University - Idaho">
      <link rel="stylesheet" href="/css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,40 +16,52 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-   <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+  
    <link rel="stylesheet" href="css/forms.css">
   
-                                   
-
+    
+    <link rel="icon" href="week9/images/favicon.ico">
+    <!--normalize CSS reference-->
+   
+    <link rel="stylesheet" href="week9/css/base.css">
+    <link rel="stylesheet" href="week9/css/medium.css">
+    <link rel="stylesheet" href="week9/css/large.css">
+    <!--fonts links-->
+       
+ 
+    <link href="week9/css/normalize.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://github.com/KAYNALEDI/wdd230/blob/Week-1/week5/images/wee.jpeg?raw=true" type="icon">
 </head>
+                                                                                                                               
+                             
+
+
 
 <body>
-    <header>
-        <img src="images/wee.jpeg" alt="logo">
-        <h1>Oar Chamber Contact Information</h1>
-
-    </header>
-    <nav class="clearfix">
-                         
-               <div class="social">
+           <header>
+            
+            <div class="chamberName">
+                <h1>Oar Chamber Services</h1>
+                <h2>Chamber of Commerce</h2>
+            </div> 
+            <div class="social">
                 <a href="https://twitter.com" target="blank"><img src="images/twitter.png" alt="Twitter Link"></a>
                 <a href="https://facebook.com" target="blank"><img src="images/facebook.png" alt="Facebook Link"></a>
             </div>
-
-        <button onclick="chamberButton">&#9776; Menu</button>
-        <ul id="primaryNav" class="hide">
-
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li><a href="forms.html">Careers</a></li>
-            <li><a href="contact.html">Contact</a></li>
-
-        </ul>
-    </nav>
-
-    </header>
+            <span id="date"></span>
+            <nav>
+                <button id="hamburguerButton"><span>&#9776;</span><span>X</span></button>
+                <ul id="navBar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li class="active"><a href="directory.html">Directory</a></li>
+                    <li><a href="https://kaynaledi.github.io/wdd230/week8/membership.html">Join</a></li>
+                    <li><a href="https://kaynaledi.github.io/wdd230/week6/discover.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+                                                                                        
+        
     <main>
       <div class="banner-box">
         <img
