@@ -3,6 +3,7 @@ const requestURL = "./js/data.json";
 const cards = document.querySelector(".cards");
 const lists = document.querySelector(".listTabs")
 
+
 // basic fetch( method) implementation
 fetch(requestURL)
     .then(function (response) {
