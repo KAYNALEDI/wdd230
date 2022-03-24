@@ -1,29 +1,172 @@
 {
   "directory": [
-        {
-      "name": "Wells fargo Bank",
-      "phone": "305-447-6200",
-      "link": "https://www.wellsfargo.com/",
-      "logo": "images/directory/wells.png"
+    {
+      "companyname": "Wells fargo Bank"",
+      "logourl": "images/directory/wells.png",
+      "address": "2100 Ponce de Leon, Coral Gables, FL 33134",
+      "phone": 305-447-6200,
+      "website": "https://www.wellsfargo.com/",
+      "memberLevel": 1
     },
     {
-      "name": "SAWA",
-      "phone": "305-447-6555",
-      "link": "https://www.sawaresturant.COM/",
-      "logo": "images/directory/sawa.png"
+      "companyname": "SAWA",
+      "logourl": "images/directory/sawa.png",
+      "address": "360 San Lorenzo Ave #1500, Coral Gables, FL 33146",
+      "phone": 305-447-6555,
+      "website": "https://www.sawaresturant.COM/",
+      "memberLevel": 2
+    },
+   
+    {
+      "companyname": "Voyage",
+      "logourl": "images/directory/voyage.png",
+      "address": "350 San Lorenzo Ave #2222, Miami, FL 33146",
+      "phone": 305-774-0798,
+      "website": "https://voyagerluggage.com/",
+      "memberLevel": 1
     },
     {
-      "name": "Voyage",
-      "phone": "305-774-0798",
-      "link": "https://voyagerluggage.com/",
-      "logo": "images/directory/voyage.png"
+      "companyname": "Del Monte",
+      "logourl": "images/directory/monte.png",
+      "address": "241 Sevilla Ave, Coral Gables, FL 33134",
+      "phone": 800-543-3090,
+      "website": "https://freshdelmonte.com/",
+      "memberLevel": 1
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+      "companyname": "HOME CENTER",
+      "logourl": "images/directory/homecenter_logo.webp",
+      "address": "Av. Uyuni #1171 casi puente Muyurina, Bolivia",
+      "phone": 22795373,
+      "website": "www.homecenterfacil.com/",
+      "memberLevel": 2
     },
     {
-      "name": "Del Monte",
-      "phone": "800-543-3090",
-      "link": "https://freshdelmonte.com/",
-      "logo": "images/directory/monte.png"
+      "companyname": "HUPERMALL",
+      "logourl": "images/directory/hupermall_logo.webp",
+      "address": " Av. Pando, Esquina Av. Portales, Bolivia",
+      "phone": 59144548737,
+      "website": "hupermallcbba.com/",
+      "memberLevel": 2
     },
+    {
+      "companyname": "IC NORTE",
+      "logourl": "images/directory/icnorte_logo.webp",
+      "address": "Av Dorbigni S/n Esq. Melchor Pérez De Olguin, Bolivia",
+      "phone": 224403040,
+      "website": "www.icnorte.com",
+      "memberLevel": 1
+    },
+    {
+      "companyname": "INFOCAL",
+      "logourl": "images/directory/infocal_logo.webp",
+      "address": "Calle Bolívar # 730 591 Sucre, Bolivia",
+      "phone": 70460777,
+      "website": "infocalscz.edu.bo/",
+      "memberLevel": 2
+    },
+    {
+      "companyname": "IRBE",
+      "logourl": "images/directory/irbe_logo.webp",
+      "address": "Av. M.I. Belzu Nº S-0734 entre Armando Mendez y Honorato Salazar, Bolivia",
+      "phone": "783059015",
+      "website": "libreriairbe.com/",
+      "memberLevel": 1
+    },
+    {
+      "companyname": "PAMELITA",
+      "logourl": "images/directory/pamelita_logo.webp",
+      "address": "Av. Circunvalación Km 6 1/2 Zona Amancayas, Bolivia",
+      "phone": 44797777,
+      "website": "www.EmpanadasPamelita/",
+      "memberLevel": 1
+    },
+    {
+      "companyname": "PROSALUD",
+      "logourl": "images/directory/prosalud_logo.webp",
+      "address": "Av. Prefecto Rivas Esq. Emilio Finot, Bolivia",
+      "phone": 3541467,
+      "website": "www.prosalud.org",
+      "memberLevel": 2
+    },
+    {
+      "companyname": "SKY BOX",
+      "logourl": "images/directory/skybox_logo.webp",
+      "address": "Av. Heroínas esq. Antezana, Bolivia",
+      "phone": 59176915666,
+      "website": "www.SkyBoxCinemas/",
+      "memberLevel": 2
+    },
+    {
+      "companyname": "TIA MACHULA",
+      "logourl": "images/directory/tiamachula_logo.webp",
+      "address": "Avenida D'Orbigni, Casi iban bluske Diagonal Surtidor Los laureles, Cochabamba, Bolivia",
+      "phone": 59176915417,
+      "website": "www.Silpanchos-Tia-Machula/",
+      "memberLevel": 1
+    },
+    {
+      "companyname": "UCATEC",
+      "logourl": "images/directory/ucatec_logo.webp",
+      "address": "Plaza Cala Cala, C. Huallparimachi N 1862",
+      "phone": 5914450927,
+      "website": "ucatec.edu.bo",
+      "memberLevel": 2
+    },
+    {
+      "companyname": "UNIFRANZ",
+      "logourl": "images/directory/unifranz_logo.webp",
+      "address": "Calle Héroes del Acre No. 1855 esquina Landaeta, Bolivia",
+      "phone": 5913515150,
+      "website": "unifranz.edu.bo/",
+      "memberLevel": 1
+    },
+    {
+      "companyname": "BATA",
+      "logourl": "images/directory/bata_logo.webp",
+      "address": "Avenida Larco, 658 - Of. Principal - Miraflores, Bolivia",
+      "phone": 5912202555,
+      "website": "www.bata.com.bo/",
+      "memberLevel": 1
+    },
+    {
+      "companyname": "TAYO TRANSPORT",
+      "logourl": "images/truck.png",
+      "address": "Av Of. Principal - Cbba, Bolivia",
+      "phone": 5916826745,
+      "website": "www.transportesbolivia.com.ar/",
+      "memberLevel": 2
+    },
+    {
+      "companyname": "JUST DANCE!",
+      "logourl": "images/dance.png",
+      "address": "Avenida Larco, 234, Bolivia",
+      "phone": 5916293522,
+      "website": "vymaps.com/BO/Academia-De-Baile-Just-Dance/",
+      "memberLevel": 2
+    },
+    {
+      "companyname": "TO THE TOP",
+      "logourl": "images/mountain-bike.png",
+      "address": "Av Lanza 987 - Miraflores, Bolivia",
+      "phone": 5912738466,
+      "website": "www.facebook.com/DEBIANANDLINUX/",
+      "memberLevel": 1
+    }
+  ]
+}
+
+
+
+
     {
       "name": "Yard House",
       "phone": "305-447-9273",
