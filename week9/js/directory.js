@@ -1,5 +1,5 @@
 // store resource URL in a const
-const requestURL = "js/data.json";
+const requestURL = "./js/data.json";
 const cards = document.querySelector(".cards");
 const lists = document.querySelector(".listTabs")
 
