@@ -1,46 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OAR CHAMBER SITE</title>
-    <meta name="description" content="Lesson 7: Chamber Home Page Build Continued" WDD 230: Web Frontend Development assignment at Brigham Young University - Idaho">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="css/chamber.css">
-    <link rel="stylesheet" href="./css/medium.css">
-    <link rel="stylesheet" href="./css/large.css">
-    <script defer src="js/dates.js"></script>
-                  <script defer src="js/chamberSite.js "></script>                   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAR CHAMBER SITE | Directory</title>
+    <meta name="description" content="Lesson 9: Directory" WDD 230: Web Frontend Development assignment at Brigham Young University - Idaho">
+     <!--Favicon-->
+    <link rel="icon" href="images/favicon.ico">
+    <!--normalize CSS reference-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--stylesheets references-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <!--fonts links-->
+     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@700&display=swap" rel="stylesheet">                                         
+          
+ 
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://github.com/KAYNALEDI/wdd230/blob/Week-1/week5/images/wee.jpeg?raw=true" type="icon">
 </head>
+                                                                                                                               
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+  </head>                                          
+
 <body>
-    <header>
-        <div class="logo">
-                     
-            <img src= "https://github.com/KAYNALEDI/wdd230/blob/Week-1/week5/images/wee.jpeg?raw=true" alt="Website logo">
-            <div class="header">
-              <h1>Oar Chamber Services</h1>
-        <span> Oar Chamber Services</span>
+    <div class="banner" id="banner" style="display: none">
+        <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+    <div class="content">
+        <header>
+            <div class="logo">
+        <img src="https://github.com/KAYNALEDI/wdd230/blob/Week-1/week5/images/wee.jpeg?raw=true" alt="Website logo">
+            </div>
+            <div class="chamberName">
+                <h1>Oar Chamber Services</h1>
+                <h2>Chamber of Commerce</h2>
+            </div> 
+            <div class="social">
+                <a href="https://twitter.com" target="blank"><img src="images/twitter.png" alt="Twitter Link"></a>
+                <a href="https://facebook.com" target="blank"><img src="images/facebook.png" alt="Facebook Link"></a>
+            </div>
+            <span id="date"></span>
+            <nav>
+                <button id="hamburguerButton"><span>&#9776;</span><span>X</span></button>
+                <ul id="navBar">
+                    <li><a href="https://kaynaledi.github.io/wdd230/week7/index.html">Home</a></li>
+                    <li><a href="https://kaynaledi.github.io/wdd230/week7/discover.html">Discover</a></li>
+                    <li class="active"><a href="directory.html">Directory</a></li>
+                    <li><a href="https://kaynaledi.github.io/wdd230/week8/membership.html">Join</a></li>
+                    <li><a href="https://kaynaledi.github.io/wdd230/week8/contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+                                 
+  <main>
+            <div class="hero">
+                <picture class="hero-image">
+                    <source media="(max-width: 637px)" srcset="images/lake_small.jpg">
+                    <source media="(max-width: 1167px)" srcset="images/lake_medium.jpg">
+                    <source media="(max-width: 1500px)" srcset="images/lake_square.jpg">
+                    <img src="images/lake_square.jpg" alt="Cristal Clear Lake photo">
+                </picture>
+                <h2><strong>Welcome to Crystal Clear Lake</strong></h2>
+                <a href="join.html"><button id="joinButton"> Join the Chamber</button></a>
+            </div>
+            <div class="event">
+                <h2>Ribbon Cutting</h2>
+                <h3><strong>🎀 Just Sweets Bakery</strong></h3>
+                <p>Join us for the grand opening of Just Sweets Bakery, Friday at 4:00 p.m. <a href="#"> more info...</a> </p>
+            </div>
+            <div class="weather">
+                <h2>Weather</h2>
+                <figure>
+                    <img src="" alt="" id="weathericon" />
+                </figure>
+                <p><span id="icon-src"></span></p>
+                <figure>
+                    <img src="" alt="" id="weathericon" />  
+                    <p><span id="current-temp"></span>&deg;C</p>
+                    <figcaption></figcaption>
+                </figure>
+                
+                <p>Wind Speed: <span id="windspeed"></span>Km/h</p>                
+                <p>Wind Chill: <span id="windchill"></span>&deg;C</p>
+
+            </div>
+            <div class="news">
+                <h2>News Release</h2>
+                <h3>Quinoa Boom Benefits Bolivian Farmers</h3>
+                <p>The United States Agency for International Development (USAID) assisted Bolivian quinoa 
+                    (pronounced, keen-awa) farmers in upgrading their processing machinery so they could 
+                    increase their capacity by six fold. As the farmers made more money, their kids could 
+                    go to school — a win-win success story.</p>
+            </div>
+            <div class="spotlights">
+                <div class="transport">
+                    <div class="contact1">
+                        <h2 class="spot1H2">Tayo Transport</h2>
+                        <img class="spot1img" src="images/truck.png" alt="spotlight1">
+                        <!-- <p class="spot1p"><em>"We get it there for you!"</em></p> -->
+                        <p class="spot1phone">+591 999-99-99</p>
+                        <p class="spot1email">contact@tayotransport.com</p>
+                        <!-- <p>+591 999-99-99 <a href="http://www.transportesbolivia.com.ar/" target="blank">Website</a></p> -->
+                    </div>
+                </div>
+                <div class="dance">
+                    <div class="contact2">
+                        <h2 class="spot2H2"><span>Just Dance!</span></h2>
+                        <img class="spot2img" src="images/dance.png" alt="spotlight2">
+                        <!-- <p class="spot2p"><em>"An after school dance institution."</em></p> -->
+                        <p class="spot2phone">+591 888-88-88</p>
+                        <p class="spot2email">conctact@justdance.com</p>
+                        <!-- <p>+591 888-88-88 <a href="https://vymaps.com/BO/Academia-De-Baile-Just-Dance-754975537975939/" target="blank">Website</a></p> -->
+                    </div>
+                </div>
+                <div class="bike-agency">
+                    <div class="contact3">
+                        <h2 class="spot3H2"><span id="bike-agency">To the top</span></h2>
+                        <img class="spot3img" src="images/mountain-bike.png" alt="spotlight3">
+                        <!-- <p class="spot3p"><em>"Extreme Sports Agency"</em></p> -->
+                        <p class="spot3phone">+591 777-77-77</p>
+                        <p class="spot3email">contact@tothetop.com</p>
+                        <!-- <p>+591 777-77-77 <a href="https://www.facebook.com/DEBIANANDLINUX/" target="blank">Website</a></p> -->
+                    </div>
                 </div>
             </div>
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>                  
-   <div>
-          &copy; <span id="copyrightyear"></span> | Nokwazi Kunene| Florida| <a href="https://www.byui.edu/online">BYUI
-                Online Learning</a>
-        </div>
-        Last Updated: <span id="last-updated"></span>
-    </footer>
-    <script src="js/script.js"></script>
+            <div class="join">
+                <span><a href="join.html"><button id="join2button">Join Us!</button></a></span>
+                <p>Discover how to join the chamber of commerce and how it will
+                    benefit your organization!</p>
+            </div>
+        </main>
+                                                                  
+            <footer>
+            <div class="address">
+                <img src="https://github.com/KAYNALEDI/wdd230/blob/Week-1/week5/images/wee.jpeg?raw=true" alt="Website logo">
+           <p><strong>Oar Chamber Services</strong></p>
+                <p>564 Catalonia Ave</p>
+                <p>Miami, Florida</p> 
+                <p> 33155 </p>
+                <a href="https://goo.gl/maps/actBCRGs554eJtpA7" target="blank">🗺️ Location Map</a>                                               
+            </div>
+            <div class="contact">
+                <p>info@OWS.com</p>
+                <p>+(800)123-657-11</p>
+               
+            </div>                   
+        
+            <div class="myInfo">
+                <p> &copy;<span id="currentyear"></span>Oar Chamber Services </p>
+                <p><strong> Nokwazi Kunene </strong> </p>
+                <p> WDD 230 Project </p>  
+                <p><span id="lastinfo">Last Modification: <span id="lastmodified"></span></span></p>
+               
+                    
+                </div>
+            </div>
+        </footer>
+        <!-- java reference -->
+        <script src="js/index.js"></script>
+        <!-- <script src="js/windchill.js"></script> -->
+        <script src="js/lazyload.js" defer></script>
+        <script src="js/directory.js" defer></script>
+    </div> 
 </body>
-  </html>                             
+</html>                                                                                                                           
+                                                                                                                               
+                                                              
