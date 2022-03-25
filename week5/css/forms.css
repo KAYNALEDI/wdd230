@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Oar Chamber Services</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
 
-  <header>
-    <div class="logo-box">
-      <img
-        class="logo-image"
-        src="images/wee.jpeg"
-        alt=" Logo"
-      />
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="faqs.html">FAQs</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="personal-site-plan.html">Site Plan</a></li>
-        <li><a href="rates.html">Rates</a></li>
-         <li><a href="forms.html">Forms</a></li>
-         <li><a href="card.html">Card</a></li>
-
-      </ul>
-    </nav>
-  </header>
-  <main>
-<body>
    <div class="banner-box">
       <img
         class="logo"
