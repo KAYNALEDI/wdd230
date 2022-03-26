@@ -320,6 +320,25 @@ h3 {
 img[data-src] {
     filter: blur(0.2em);
 }
+
+.discover-flex-large {
+    display: none;
+}
+
+.discover-flex-small {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.discover-flex-small img {
+    max-width: 100%;
+}
+
+
 .discover_images img {
     filter: blur(0em);
     margin-top: 1em;
